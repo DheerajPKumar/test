@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    // background-color:yellow;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    &__inputEl{
+        width: 30%;
+        height: 7%;
+        outline: none;
+        border: 0.1 px solid black;
+        box-shadow: 10px 10px 5px rgba(28, 26, 26, 0.3);
+        font-size: 15px;
+    }
+}
